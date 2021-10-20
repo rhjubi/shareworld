@@ -1,0 +1,43 @@
+.text h2
+{
+	margin: 0;
+	padding: 0;
+}
+.text p
+{
+	font-weight: 500;
+	color: grey;
+	margin-bottom: 30px;
+}
+input
+{
+	border: none;
+	border-bottom: 1px solid grey;
+	outline: none;
+	padding: 8px 0;
+	width: 100%;
+	letter-spacing: .8px;
+}
+.fr-btn button
+{
+	background: red;
+	color: white;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	padding: 8px;
+	width: 100%;
+	border-radius: 6px;
+	letter-spacing: .7px;
+}
+i
+{
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+}
+i:hover
+{
+	cursor: pointer;
+	color: black;
+}

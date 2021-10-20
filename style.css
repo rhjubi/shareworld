@@ -1,0 +1,94 @@
+.bd
+{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.inp
+{
+	display: flex;
+	flex-direction: column;
+}
+.inp1
+{
+	padding: 8px 10px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid grey;
+	font-weight: 500;
+}
+.anchor
+{
+	color: red;
+	font-weight: 500;
+	text-decoration: none;
+}
+.anchor:hover
+{
+	color: red;
+	cursor: pointer;
+}
+.signin-btn
+{
+	background: red;
+	color: white;
+	font-weight: 500;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 8px;
+	margin: 35px 0 10px 0;
+	border-radius: 6px;
+}
+p
+{
+	font-weight: 500;
+	letter-spacing: .8px;
+}
+.signup-btn
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.fb-btn,.gmail-btn,.apple-btn
+{
+	border: none;
+	outline: none;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: 500;
+}
+.fb-btn
+{
+	background: #3b5998;
+}
+.gmail-btn
+{
+	background: #0F9D58;
+}
+.apple-btn
+{
+	background: #7e7e7e;
+}
+.signup-btn2 button
+{
+	width: 100%;
+	background: transparent;
+	color: red;
+	border: 1px solid red;
+	outline: none;
+	border-radius: 6px;
+	margin-top: 50px;
+	padding: 8px;
+	font-weight: 500;
+}
+i
+{
+	font-size: 18px;
+}

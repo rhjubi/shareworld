@@ -1,0 +1,115 @@
+body
+{
+	background: grey;
+}
+.upbox
+{
+	margin-bottom: 10px;
+}
+.pro-pic img
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.pro-pic img:hover
+{
+	cursor: pointer;
+}
+.lists ul li.active a
+{
+	color: red;
+	padding-bottom: 10px;
+	border-bottom: 2px solid red;
+}
+.lists ul li
+{
+	margin: 0 10px;
+	font-weight: 500;
+}
+.lists ul li a
+{
+	text-decoration: none;
+	color: black;
+	padding-bottom: 5px;
+}
+.lists ul li a:hover
+{
+	color: black;
+}
+.offcanvas-body p
+{
+	font-weight: 500;
+	color: grey;
+	padding: 0;
+	margin: 0;
+}
+.p-list ul li
+{
+	margin-bottom: 15px;
+}
+.p-list ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 20px;
+}
+.p-list ul li a:hover
+{
+	color: black;
+}
+.user-pic img
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.user-text h6,.user-text p
+{
+	padding: 0;
+	margin: 0;
+}
+.user-text p
+{
+	font-size: 10px;
+	font-weight: 500;
+	color: grey;
+}
+.card-body
+{
+	background: white;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+.icon i
+{
+	color: grey;
+}
+.icon i:hover
+{
+	cursor: pointer;
+}
+.image-post img
+{
+	max-width: 100%;
+	border-radius: 6px;
+}
+.icon-with-text
+{
+	color: grey;
+	font-weight: 500;
+}
+.icon-with-text p,.icon-with-text i
+{
+	margin: 0;
+	padding: 0;
+}
+.icon-with-text i
+{
+	margin-right: 10px;
+}
+.icon-with-text i:hover,.icon-with-text p:hover
+{
+	cursor: pointer;
+}

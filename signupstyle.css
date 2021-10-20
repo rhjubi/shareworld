@@ -1,0 +1,59 @@
+.text h2
+{
+	margin: 0;
+	padding: 0;
+}
+.text p
+{
+	font-weight: 500;
+	color: grey;
+}
+.inp
+{
+	display: flex;
+	flex-direction: column;
+}
+input
+{
+	border: none;
+	border-bottom: 1px solid grey;
+	outline: none;
+	padding: 8px 0;
+	letter-spacing: .8px;
+}
+.reg-btn button
+{
+	background: red;
+	color: white;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	padding: 8px;
+	width: 100%;
+	border-radius: 6px;
+	letter-spacing: .7px;
+}
+.alert-text p
+{
+	color: grey;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 500;
+	padding: 0 60px;
+	letter-spacing: .8px;
+}
+i
+{
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+}
+i:hover
+{
+	cursor: pointer;
+	color: black;
+}
+form h5
+{
+	color: grey;
+}

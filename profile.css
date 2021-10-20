@@ -1,0 +1,131 @@
+body
+{
+	background: grey;
+}
+.back-icon a
+{
+	color: black;
+}
+.back-icon a:hover
+{
+	color: black;
+	cursor: pointer;
+}
+.profile-pic img
+{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+.texts h5,.texts p,.user-id h5,.user-id p
+{
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+}
+.texts p,.user-id p
+{
+	color: grey;
+}
+.edit-profile-btn a
+{
+	background: red;
+	padding: 8px 16px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: .5px;
+	text-decoration: none;
+	border-radius: 6px;
+	outline: none;
+	border: none;
+	transition: .6s;
+}
+.edit-profile-btn a:hover
+{
+	background: #B22222;
+	color: white;
+}
+.upper-box
+{
+	border-radius: 6px;
+}
+.list ul li
+{
+	padding: 8px 12px 0px 12px;
+	margin: 4px 10px 8px 4px;
+}
+.list ul li.active a
+{
+	color: red;
+	border-bottom: 2px solid red;
+	padding-bottom: 8px;
+}
+.list ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+}
+.list ul li a:hover
+{
+	color: black;
+	cursor: pointer;
+}
+.user-pic img
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.user-text h6,.user-text p
+{
+	padding: 0;
+	margin: 0;
+}
+.user-text p
+{
+	font-size: 10px;
+	font-weight: 500;
+	color: grey;
+}
+.card-body
+{
+	background: white;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+.icon i
+{
+	color: grey;
+}
+.icon i:hover
+{
+	cursor: pointer;
+}
+.image-post img
+{
+	max-width: 100%;
+	border-radius: 6px;
+}
+.icon-with-text
+{
+	color: grey;
+	font-weight: 500;
+}
+.icon-with-text p,.icon-with-text i
+{
+	margin: 0;
+	padding: 0;
+}
+.icon-with-text i
+{
+	margin-right: 10px;
+}
+.icon-with-text i:hover,.icon-with-text p:hover
+{
+	cursor: pointer;
+}
+#saved-post
+{
+	display: none;
+}
